@@ -1,8 +1,9 @@
-package ch07.exam01;
+package ch07.sec02.exam01;
 
 public class Phone {
     public  String model;
     public  String color;
+//기본 생성자는 직접 만들지 않아도 자동으로 만들어진다.
 
     public void bell(){
         System.out.println("벨이 울립니다.");
