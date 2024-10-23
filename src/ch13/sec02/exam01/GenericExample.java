@@ -1,5 +1,5 @@
 package ch13.sec02.exam01;
-
+//제네릭 예제 1
 public class GenericExample {
     public static void main(String[] args) {
         Product<Tv, String> product1 = new Product<>();
