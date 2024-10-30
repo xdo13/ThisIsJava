@@ -1,5 +1,5 @@
 package ch20.oracle.sec05;
-
+// 연결확인하는 코드
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;

@@ -196,6 +196,7 @@ public class BoardExample4 {
             }catch (Exception e) {
                 e.printStackTrace();
                 exit();
+                //BoardExample 6
             }
         }
         list();
@@ -212,6 +213,7 @@ public class BoardExample4 {
         }catch (Exception e){
             e.printStackTrace();
             exit();
+            //BoardExample 7
         }
         list();
     }
@@ -232,6 +234,7 @@ public class BoardExample4 {
             }catch (Exception e) {
                 e.printStackTrace();
                 exit();
+                //BoardExample 8
             }
         }
         list();
@@ -246,6 +249,7 @@ public class BoardExample4 {
         }
         System.out.println("** 게시판 종료 **");
         System.exit(0);
+        //BoardExample 9
     }
 
 

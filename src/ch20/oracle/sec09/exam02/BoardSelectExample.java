@@ -42,6 +42,7 @@ public class BoardSelectExample {
 
                 //콘솔에 출력
                 System.out.println(board);
+                System.out.println();
 
                 //파일로 저장
                 Blob blob = board.getBfiledata();
