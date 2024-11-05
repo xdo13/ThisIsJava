@@ -26,5 +26,15 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="ojdbc6" level="project" />
+    <orderEntry type="library" exported="" name="json-20240303" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/src/ch19/libs/json-20240303.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

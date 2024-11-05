@@ -3,7 +3,6 @@ package ch20.oracle.sec12;
 import java.sql.*;
 import java.util.Scanner;
 
-
 public class BoardExample3 {
     //Field
     private Scanner scanner = new Scanner(System.in);
@@ -73,7 +72,6 @@ public class BoardExample3 {
             String menuNo = scanner.nextLine();
             System.out.println();
 
-
             switch(menuNo){
                 case "1" -> create();
                 case "2" -> read();
@@ -97,11 +95,8 @@ public class BoardExample3 {
             System.exit(0);
         }
 
-
         public static void main(String[] args) {
             BoardExample3 boardExample = new BoardExample3();
             boardExample.list();
         }
     }
-
-
