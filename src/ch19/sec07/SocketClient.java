@@ -25,7 +25,7 @@ public class SocketClient {
             this.dos = new DataOutputStream(socket.getOutputStream());
             InetSocketAddress isa =
                     (InetSocketAddress) socket.getRemoteSocketAddress();
-            this.clientIp = isa.getHostName();
+            this.clientIp = isa.getAddress().getHostName();
             receive();
         } catch (IOException e) {
         }
@@ -37,7 +37,7 @@ public class SocketClient {
                 while (true) {
                     String receiveJson = dis.readUTF();
 
-                    JSONObject jsonObject = new JSONObject()(receiveJson);
+                    JSONObject jsonObject = new JSONObject(receiveJson);
                     String command = jsonObject.getString("command");
 
                     switch (command) {
@@ -59,7 +59,7 @@ public class SocketClient {
         });
     }
 
-        public void send (String message){
+        public void send (String json){
             try {
                 dos.writeUTF(json);
                 dos.flush();
